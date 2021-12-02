@@ -1,0 +1,6 @@
+framework module Pods_YeajuTalk {
+  umbrella header "Pods-YeajuTalk-umbrella.h"
+
+  export *
+  module * { export * }
+}

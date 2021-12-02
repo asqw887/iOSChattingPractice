@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3FACCA6274BB8BF00B5AA45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FACCA5274BB8BF00B5AA45 /* AppDelegate.swift */; };
+		B3FACCA8274BB8BF00B5AA45 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FACCA7274BB8BF00B5AA45 /* SceneDelegate.swift */; };
+		B3FACCAA274BB8BF00B5AA45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FACCA9274BB8BF00B5AA45 /* ViewController.swift */; };
+		B3FACCAD274BB8BF00B5AA45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3FACCAB274BB8BF00B5AA45 /* Main.storyboard */; };
+		B3FACCB0274BB8BF00B5AA45 /* YeajuTalk.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B3FACCAE274BB8BF00B5AA45 /* YeajuTalk.xcdatamodeld */; };
+		B3FACCB2274BB8C200B5AA45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3FACCB1274BB8C200B5AA45 /* Assets.xcassets */; };
+		B3FACCB5274BB8C200B5AA45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3FACCB3274BB8C200B5AA45 /* LaunchScreen.storyboard */; };
+		B3FACCBD274BBC7B00B5AA45 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B3FACCBC274BBC7B00B5AA45 /* GoogleService-Info.plist */; };
+		B3FACCC1274C1AB400B5AA45 /* RemoteConfigDefaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = B3FACCC0274C1AB400B5AA45 /* RemoteConfigDefaults.plist */; };
+		B3FACCC3274C252C00B5AA45 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FACCC2274C252C00B5AA45 /* LoginViewController.swift */; };
+		B3FACCC5274C3B1900B5AA45 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FACCC4274C3B1900B5AA45 /* SignUpViewController.swift */; };
+		B3FACCC7274D74DE00B5AA45 /* PeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FACCC6274D74DE00B5AA45 /* PeopleViewController.swift */; };
+		B3FACCC9274D7EE000B5AA45 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FACCC8274D7EE000B5AA45 /* UserModel.swift */; };
+		FA8E3435C321A34B1A8BD72E /* Pods_YeajuTalk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D48F17E2D405EE7F00BEE7F7 /* Pods_YeajuTalk.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4AEAEE3B6F1126B18C56D065 /* Pods-YeajuTalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YeajuTalk.debug.xcconfig"; path = "Target Support Files/Pods-YeajuTalk/Pods-YeajuTalk.debug.xcconfig"; sourceTree = "<group>"; };
+		B3FACCA2274BB8BF00B5AA45 /* YeajuTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YeajuTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3FACCA5274BB8BF00B5AA45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B3FACCA7274BB8BF00B5AA45 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B3FACCA9274BB8BF00B5AA45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B3FACCAC274BB8BF00B5AA45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B3FACCAF274BB8BF00B5AA45 /* YeajuTalk.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YeajuTalk.xcdatamodel; sourceTree = "<group>"; };
+		B3FACCB1274BB8C200B5AA45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3FACCB4274BB8C200B5AA45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B3FACCB6274BB8C200B5AA45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3FACCBC274BBC7B00B5AA45 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B3FACCC0274C1AB400B5AA45 /* RemoteConfigDefaults.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = RemoteConfigDefaults.plist; sourceTree = "<group>"; };
+		B3FACCC2274C252C00B5AA45 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B3FACCC4274C3B1900B5AA45 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		B3FACCC6274D74DE00B5AA45 /* PeopleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewController.swift; sourceTree = "<group>"; };
+		B3FACCC8274D7EE000B5AA45 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		D48F17E2D405EE7F00BEE7F7 /* Pods_YeajuTalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YeajuTalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D71C74CD1AF02263CDBCAACC /* Pods-YeajuTalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YeajuTalk.release.xcconfig"; path = "Target Support Files/Pods-YeajuTalk/Pods-YeajuTalk.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3FACC9F274BB8BF00B5AA45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA8E3435C321A34B1A8BD72E /* Pods_YeajuTalk.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44F10FCAB455EF4008506892 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D48F17E2D405EE7F00BEE7F7 /* Pods_YeajuTalk.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B3FACC99274BB8BF00B5AA45 = {
+			isa = PBXGroup;
+			children = (
+				B3FACCA4274BB8BF00B5AA45 /* YeajuTalk */,
+				B3FACCA3274BB8BF00B5AA45 /* Products */,
+				F4D1273427948298A0746930 /* Pods */,
+				44F10FCAB455EF4008506892 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B3FACCA3274BB8BF00B5AA45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3FACCA2274BB8BF00B5AA45 /* YeajuTalk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3FACCA4274BB8BF00B5AA45 /* YeajuTalk */ = {
+			isa = PBXGroup;
+			children = (
+				B3FACCBC274BBC7B00B5AA45 /* GoogleService-Info.plist */,
+				B3FACCA5274BB8BF00B5AA45 /* AppDelegate.swift */,
+				B3FACCA7274BB8BF00B5AA45 /* SceneDelegate.swift */,
+				B3FACCA9274BB8BF00B5AA45 /* ViewController.swift */,
+				B3FACCC0274C1AB400B5AA45 /* RemoteConfigDefaults.plist */,
+				B3FACCAB274BB8BF00B5AA45 /* Main.storyboard */,
+				B3FACCC8274D7EE000B5AA45 /* UserModel.swift */,
+				B3FACCC6274D74DE00B5AA45 /* PeopleViewController.swift */,
+				B3FACCC4274C3B1900B5AA45 /* SignUpViewController.swift */,
+				B3FACCB1274BB8C200B5AA45 /* Assets.xcassets */,
+				B3FACCB3274BB8C200B5AA45 /* LaunchScreen.storyboard */,
+				B3FACCB6274BB8C200B5AA45 /* Info.plist */,
+				B3FACCAE274BB8BF00B5AA45 /* YeajuTalk.xcdatamodeld */,
+				B3FACCC2274C252C00B5AA45 /* LoginViewController.swift */,
+			);
+			path = YeajuTalk;
+			sourceTree = "<group>";
+		};
+		F4D1273427948298A0746930 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4AEAEE3B6F1126B18C56D065 /* Pods-YeajuTalk.debug.xcconfig */,
+				D71C74CD1AF02263CDBCAACC /* Pods-YeajuTalk.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3FACCA1274BB8BF00B5AA45 /* YeajuTalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3FACCB9274BB8C200B5AA45 /* Build configuration list for PBXNativeTarget "YeajuTalk" */;
+			buildPhases = (
+				99027EBE44C7FD289CB58D88 /* [CP] Check Pods Manifest.lock */,
+				B3FACC9E274BB8BF00B5AA45 /* Sources */,
+				B3FACC9F274BB8BF00B5AA45 /* Frameworks */,
+				B3FACCA0274BB8BF00B5AA45 /* Resources */,
+				B53B391340DAB539789953E4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YeajuTalk;
+			productName = YeajuTalk;
+			productReference = B3FACCA2274BB8BF00B5AA45 /* YeajuTalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3FACC9A274BB8BF00B5AA45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					B3FACCA1274BB8BF00B5AA45 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = B3FACC9D274BB8BF00B5AA45 /* Build configuration list for PBXProject "YeajuTalk" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B3FACC99274BB8BF00B5AA45;
+			productRefGroup = B3FACCA3274BB8BF00B5AA45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3FACCA1274BB8BF00B5AA45 /* YeajuTalk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3FACCA0274BB8BF00B5AA45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3FACCB5274BB8C200B5AA45 /* LaunchScreen.storyboard in Resources */,
+				B3FACCC1274C1AB400B5AA45 /* RemoteConfigDefaults.plist in Resources */,
+				B3FACCBD274BBC7B00B5AA45 /* GoogleService-Info.plist in Resources */,
+				B3FACCB2274BB8C200B5AA45 /* Assets.xcassets in Resources */,
+				B3FACCAD274BB8BF00B5AA45 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		99027EBE44C7FD289CB58D88 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YeajuTalk-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B53B391340DAB539789953E4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YeajuTalk/Pods-YeajuTalk-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YeajuTalk/Pods-YeajuTalk-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YeajuTalk/Pods-YeajuTalk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3FACC9E274BB8BF00B5AA45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3FACCC7274D74DE00B5AA45 /* PeopleViewController.swift in Sources */,
+				B3FACCC5274C3B1900B5AA45 /* SignUpViewController.swift in Sources */,
+				B3FACCC9274D7EE000B5AA45 /* UserModel.swift in Sources */,
+				B3FACCB0274BB8BF00B5AA45 /* YeajuTalk.xcdatamodeld in Sources */,
+				B3FACCAA274BB8BF00B5AA45 /* ViewController.swift in Sources */,
+				B3FACCA6274BB8BF00B5AA45 /* AppDelegate.swift in Sources */,
+				B3FACCC3274C252C00B5AA45 /* LoginViewController.swift in Sources */,
+				B3FACCA8274BB8BF00B5AA45 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B3FACCAB274BB8BF00B5AA45 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3FACCAC274BB8BF00B5AA45 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B3FACCB3274BB8C200B5AA45 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3FACCB4274BB8C200B5AA45 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3FACCB7274BB8C200B5AA45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B3FACCB8274BB8C200B5AA45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3FACCBA274BB8C200B5AA45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AEAEE3B6F1126B18C56D065 /* Pods-YeajuTalk.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9FL2F2U32R;
+				INFOPLIST_FILE = YeajuTalk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yeaju.YeajuTalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B3FACCBB274BB8C200B5AA45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D71C74CD1AF02263CDBCAACC /* Pods-YeajuTalk.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9FL2F2U32R;
+				INFOPLIST_FILE = YeajuTalk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yeaju.YeajuTalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3FACC9D274BB8BF00B5AA45 /* Build configuration list for PBXProject "YeajuTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3FACCB7274BB8C200B5AA45 /* Debug */,
+				B3FACCB8274BB8C200B5AA45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3FACCB9274BB8C200B5AA45 /* Build configuration list for PBXNativeTarget "YeajuTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3FACCBA274BB8C200B5AA45 /* Debug */,
+				B3FACCBB274BB8C200B5AA45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B3FACCAE274BB8BF00B5AA45 /* YeajuTalk.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B3FACCAF274BB8BF00B5AA45 /* YeajuTalk.xcdatamodel */,
+			);
+			currentVersion = B3FACCAF274BB8BF00B5AA45 /* YeajuTalk.xcdatamodel */;
+			path = YeajuTalk.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B3FACC9A274BB8BF00B5AA45 /* Project object */;
+}
