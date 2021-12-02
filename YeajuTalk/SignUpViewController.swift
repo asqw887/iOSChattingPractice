@@ -64,8 +64,8 @@ class SignUpViewController: UIViewController, UINavigationControllerDelegate, UI
             let metaData = StorageMetadata()
             let image = self.imageView.image?.jpegData(compressionQuality: 0.1)
 //
-            print("-->")
-            print(uid!)
+//            print("-->")
+//            print(uid!)
             
             self.storage.reference().child("userImages").child(uid!).putData(image!, metadata: metaData) { (metaData, error) in if let error = error {
                 print(error.localizedDescription)
@@ -76,6 +76,7 @@ class SignUpViewController: UIViewController, UINavigationControllerDelegate, UI
                         print("성공!")
                     
                     Database.database().reference().child("user").child(uid!).setValue(["name":self.nameTextField.text,"profileImageUrl":url?.absoluteString,"uid":Auth.auth().currentUser?.uid]) { (err,ref) in
+                        
                         if (err==nil){
                             self.cancelevent()
                         }
