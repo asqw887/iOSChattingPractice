@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>14179448388-578s2ch7on9eklm339vg9md9us1052nj.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.14179448388-578s2ch7on9eklm339vg9md9us1052nj</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCzU46Zp1lNG1Oi0RD1Y_qo0fKe7jhg19A</string>
+	<key>GCM_SENDER_ID</key>
+	<string>14179448388</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>yeaju.YeajuTalk</string>
+	<key>PROJECT_ID</key>
+	<string>yeajutalk</string>
+	<key>STORAGE_BUCKET</key>
+	<string>yeajutalk.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:14179448388:ios:ea928d16557971ffd26e11</string>
+</dict>
+</plist>
