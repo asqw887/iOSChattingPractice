@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B381290327594BC60089E117 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B381290227594BC50089E117 /* ChatViewController.swift */; };
+		B381290627594CDA0089E117 /* ChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B381290527594CDA0089E117 /* ChatModel.swift */; };
 		B3FACCA6274BB8BF00B5AA45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FACCA5274BB8BF00B5AA45 /* AppDelegate.swift */; };
 		B3FACCA8274BB8BF00B5AA45 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FACCA7274BB8BF00B5AA45 /* SceneDelegate.swift */; };
 		B3FACCAA274BB8BF00B5AA45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FACCA9274BB8BF00B5AA45 /* ViewController.swift */; };
@@ -25,6 +27,8 @@
 
 /* Begin PBXFileReference section */
 		4AEAEE3B6F1126B18C56D065 /* Pods-YeajuTalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YeajuTalk.debug.xcconfig"; path = "Target Support Files/Pods-YeajuTalk/Pods-YeajuTalk.debug.xcconfig"; sourceTree = "<group>"; };
+		B381290227594BC50089E117 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		B381290527594CDA0089E117 /* ChatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatModel.swift; sourceTree = "<group>"; };
 		B3FACCA2274BB8BF00B5AA45 /* YeajuTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YeajuTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3FACCA5274BB8BF00B5AA45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B3FACCA7274BB8BF00B5AA45 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +68,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		B381290427594CB70089E117 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B3FACCC8274D7EE000B5AA45 /* UserModel.swift */,
+				B381290527594CDA0089E117 /* ChatModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		B3FACC99274BB8BF00B5AA45 = {
 			isa = PBXGroup;
 			children = (
@@ -85,15 +98,16 @@
 		B3FACCA4274BB8BF00B5AA45 /* YeajuTalk */ = {
 			isa = PBXGroup;
 			children = (
+				B381290427594CB70089E117 /* Model */,
 				B3FACCBC274BBC7B00B5AA45 /* GoogleService-Info.plist */,
 				B3FACCA5274BB8BF00B5AA45 /* AppDelegate.swift */,
 				B3FACCA7274BB8BF00B5AA45 /* SceneDelegate.swift */,
 				B3FACCA9274BB8BF00B5AA45 /* ViewController.swift */,
 				B3FACCC0274C1AB400B5AA45 /* RemoteConfigDefaults.plist */,
 				B3FACCAB274BB8BF00B5AA45 /* Main.storyboard */,
-				B3FACCC8274D7EE000B5AA45 /* UserModel.swift */,
 				B3FACCC6274D74DE00B5AA45 /* PeopleViewController.swift */,
 				B3FACCC4274C3B1900B5AA45 /* SignUpViewController.swift */,
+				B381290227594BC50089E117 /* ChatViewController.swift */,
 				B3FACCB1274BB8C200B5AA45 /* Assets.xcassets */,
 				B3FACCB3274BB8C200B5AA45 /* LaunchScreen.storyboard */,
 				B3FACCB6274BB8C200B5AA45 /* Info.plist */,
@@ -233,8 +247,10 @@
 				B3FACCC9274D7EE000B5AA45 /* UserModel.swift in Sources */,
 				B3FACCB0274BB8BF00B5AA45 /* YeajuTalk.xcdatamodeld in Sources */,
 				B3FACCAA274BB8BF00B5AA45 /* ViewController.swift in Sources */,
+				B381290627594CDA0089E117 /* ChatModel.swift in Sources */,
 				B3FACCA6274BB8BF00B5AA45 /* AppDelegate.swift in Sources */,
 				B3FACCC3274C252C00B5AA45 /* LoginViewController.swift in Sources */,
+				B381290327594BC60089E117 /* ChatViewController.swift in Sources */,
 				B3FACCA8274BB8BF00B5AA45 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

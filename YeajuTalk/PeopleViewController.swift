@@ -22,9 +22,9 @@ class PeopleViewController: UIViewController, UITableViewDelegate, UITableViewDa
         tableview.dataSource = self
         tableview.register(UITableViewCell.self, forCellReuseIdentifier: "Cell")
         view.addSubview(tableview)
+        
         tableview.snp.makeConstraints { (m) in
             m.top.equalTo(view)
-            
             m.bottom.left.right.equalTo(view)
         }
         
@@ -33,7 +33,7 @@ class PeopleViewController: UIViewController, UITableViewDelegate, UITableViewDa
         
         Database.database().reference().child("user").observe( .value, with: { (snapshot) in
             
-//            self.array.removeAll() // 중복 제거
+//            self.array.removeAll(/,) // 중복 제거
             for child in snapshot.children{
                 
                 let fchild = child as! DataSnapshot
@@ -98,7 +98,11 @@ class PeopleViewController: UIViewController, UITableViewDelegate, UITableViewDa
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        guard let view = self.storyboard?.instantiateViewController(withIdentifier: "ChatViewController") else { return  }
+        let view = (self.storyboard?.instantiateViewController(withIdentifier: "ChatViewController") as? ChatViewController)!
+        
+        view.destinationUid = self.array[indexPath.row].uid  // 선택한 UID 넘겨줌 
+        
+        
 
         self.navigationController?.pushViewController(view, animated: true)
     }

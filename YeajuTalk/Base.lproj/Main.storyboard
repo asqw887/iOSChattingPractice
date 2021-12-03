@@ -262,20 +262,48 @@
             </objects>
             <point key="canvasLocation" x="3371" y="104"/>
         </scene>
-        <!--View Controller-->
+        <!--Chat View Controller-->
         <scene sceneID="kAE-Tf-qNj">
             <objects>
-                <viewController storyboardIdentifier="ChatViewController" id="PMO-7R-L8b" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ChatViewController" id="PMO-7R-L8b" customClass="ChatViewController" customModule="YeajuTalk" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="IoK-62-wmM">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RkP-SZ-PjZ">
+                                <rect key="frame" x="315" y="781" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="7nS-h1-rmk"/>
+                                    <constraint firstAttribute="width" constant="46" id="Wxu-VV-hXr"/>
+                                </constraints>
+                                <state key="normal" title="전송"/>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Sn4-52-aq4">
+                                <rect key="frame" x="42" y="775" width="247" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Ggr-EX-J4w"/>
+                                    <constraint firstAttribute="width" constant="247" id="cZ2-fW-NPk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="lC9-Pl-iSu"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="lC9-Pl-iSu" firstAttribute="bottom" secondItem="Sn4-52-aq4" secondAttribute="bottom" constant="47" id="3LR-lt-1gi"/>
+                            <constraint firstItem="lC9-Pl-iSu" firstAttribute="trailing" secondItem="RkP-SZ-PjZ" secondAttribute="trailing" constant="53" id="HIZ-Tx-gJ3"/>
+                            <constraint firstItem="lC9-Pl-iSu" firstAttribute="bottom" secondItem="RkP-SZ-PjZ" secondAttribute="bottom" constant="51" id="dVy-tD-41R"/>
+                            <constraint firstItem="Sn4-52-aq4" firstAttribute="leading" secondItem="lC9-Pl-iSu" secondAttribute="leading" constant="42" id="fqw-0d-Wtc"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="sendButton" destination="RkP-SZ-PjZ" id="Lmz-bA-rdN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Of5-LG-DPO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4239" y="98"/>
+            <point key="canvasLocation" x="4237.68115942029" y="97.767857142857139"/>
         </scene>
         <!--Account-->
         <scene sceneID="EcF-0C-Htb">
